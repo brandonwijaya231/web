@@ -1,90 +1,137 @@
 body{
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+margin:0;
+font-family:Arial;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:10px 40px;
-    position:fixed;
-    width:100%;
-    background:#111;
-    color:white;
-    z-index:1000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+height:50px;
+position:fixed;
+width:100%;
+background:white;
+padding:0 20px;
 }
 
-header a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    font-weight:bold;
+.banner a{
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+color:black;
 }
 
-header a:hover{
-    color:orange;
+nav a{
+margin:10px;
+text-decoration:none;
+color:black;
+font-weight:bold;
 }
+
+nav a:hover{
+color:green;
+}
+
 
 section.home{
-    height:800px;
-    background-image:url("bran.png");
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    display:flex;
-    align-items:center;
+height:800px;
+background-image:url("bran.png");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+padding-top:120px;
+padding-left:50px;
+color:blanchedalmond;
 }
 
 .kotakBiotek{
-    width:50%;
-    margin-left:80px;
-    background:rgba(0,0,0,0.6);
-    padding:40px;
-    border-radius:10px;
+width:40%;
 }
 
 .namaBiotek{
-    font-size:40px;
-    color:white;
+font-size:50px;
 }
 
 .deskBiotek{
-    color:white;
-    font-size:20px;
+font-size:20px;
 }
+
 
 section.project{
-    padding:120px 20px;
-    text-align:center;
-    background:#f4f4f4;
-}
-
-section.project img{
-    height:250px;
-    border-radius:10px;
+height:800px;
+padding-top:100px;
 }
 
 .deskProject{
-    width:60%;
-    margin:auto;
+width:60%;
+margin:auto;
+text-align:center;
 }
+
+section.project img{
+height:300px;
+}
+
 
 section.howto{
-    padding:120px 20px;
-    text-align:center;
+height:800px;
+padding-top:100px;
+text-align:center;
+background-image:url("bran2.png");
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center;
 }
 
-section.howto h2{
-    font-size:35px;
+.deskHowto{
+width:70%;
+margin:auto;
+font-size:22px;
+line-height:1.6;
 }
+
 
 section.profile{
-    padding:120px 20px;
-    text-align:center;
-    background:#f4f4f4;
+height:600px;
+padding-top:100px;
+text-align:center;
+background-image:url("bran3.png");
+background-size:80%;
+background-repeat:no-repeat;
+background-position:center;
 }
 
-section.profile h2{
-    font-size:35px;
+.judulProfile{
+color:black;
+}
+
+.teksProfile{
+color:blanchedalmond;
+font-size:20px;
+}
+
+.fotoProfile{
+width:120px;
+margin-top:20px;
+}
+
+
+.sosial{
+margin-top:20px;
+}
+
+.sosial a{
+font-size:35px;
+margin:10px;
+color:#E1306C;
+text-decoration:none;
+}
+
+.tiktokLogo{
+width:35px;
+vertical-align:middle;
 }
